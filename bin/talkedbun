@@ -1,0 +1,3 @@
+#!/usr/bin/env ruby
+file = File.join(File.dirname(__FILE__), "..", "talkedbun.rb")
+`ruby #{file}`

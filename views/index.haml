@@ -1,0 +1,28 @@
+!!! XML
+!!! Strict
+%html{ html_attrs("ja") }
+  %head
+    %title Talkedbun - japanese text-to-speech server
+    %meta{ 'http-equiv' => 'Content-Language', :conent => 'ja' }
+    %meta{ 'http-equiv' => 'Content-Type', :conent => 'text/html', :charset => 'utf-8' }
+    %meta{ 'http-equiv' => 'Content-Style-Type', :conent => 'text/css' }
+    %meta{ 'http-equiv' => 'Content-Script-Type', :conent => 'text/javascript' }
+    %link{:href => "style.css", :rel => "stylesheet", :type => "text/css", :charset => "utf-8"}
+  %body
+    #header
+      %h1 Talkedbun
+    #content
+      .description
+        Talkedbun "喋饅頭" is japanese text-to-speech server.
+      %h2 Example
+      %ul
+        %li
+          %a{:href => "うえからくるぞ、きをつけろ！"} うえからくるぞ、きをつけろ！
+        %li
+          %a{:href => "ぐぐれかす"} ぐぐれかす
+        %li
+          %a{:href => "いくえふめい"} いくえふめい
+      .copy
+        &copy;
+        %a{:href => "/", :title => "Talkedbun"} Talkedbun
+        2009
