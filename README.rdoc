@@ -6,7 +6,7 @@ Talkedbun "喋饅頭" is japanese text-to-speech server.
 
   % sudo gem install komagata-talkedbun -s http://gems.github.com
   % talkedbun
-  % open http://localhost:9292/
+  % open http://localhost:4567/
 
 == Copyright
 
