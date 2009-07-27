@@ -8,6 +8,9 @@ Talkedbun "喋饅頭" is japanese text-to-speech server.
   % talkedbun
   % open http://localhost:4567/
 
+required SayKana, ffmpeg command.
+now, MAC OS X only...
+
 == Copyright
 
 Copyright (c) 2009 Masaki Komagata <komagata@gmail.com>. See LICENSE for details.
